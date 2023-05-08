@@ -1,0 +1,54 @@
+.product{
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 0 auto;
+    border-radius: 5px;
+    position: relative;
+}
+
+.product img{
+    width: 286px;
+    height: 286px;
+    display: block;
+    margin: 6px auto 0;
+    border-radius: 5px;
+}
+
+.product-text{
+    padding: 20px 0 30px;
+    padding-left: 10px;
+}    
+
+.product-text p{
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+
+.product-text span{
+    display: block;
+}
+
+.product a{
+    display: block;
+    text-align: center;
+    border-top: 1px solid #95A0A7;
+    border-radius: 0 0 5px 5px;
+    background: #FFE0B3;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.product a:hover{
+    color: #fff;
+    background-color: #FF9900;
+}
+
+.product a span {
+    margin-left: 5px;
+}
